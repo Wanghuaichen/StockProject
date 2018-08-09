@@ -51,10 +51,7 @@ def getTrade():
                 end_date=20180808, 
                 fields="", 
                 adjust_mode='post')
-    # print(df)
     for i in df.iterrows():
-        # print(i)
-        # print(i[0])
         item = [i[0],i[1]['open'],i[1]['high'],i[1]['low'],i[1]['close']]
         data.append(item)
         dt.append(i[1]['trade_date'])

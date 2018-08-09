@@ -25,18 +25,6 @@ for i in df.iterrows():
     data.append(item)
     dt.append(i[1]['t'])
 dt.insert(0,1)
-# v = np.array(data)
-
-# for i in range(len(raw)):
-#     # t = date2num(datetime.datetime.strptime(raw[i][0],'%Y%m%d'))
-      # o, h, l ,c = raw[i][1:5]
-#     data = (i, o, h, l, c)
-#     # print(raw[i][0])
-#     dt.append(raw[i][0])
-#     v.append(data)
-# # print(v)
-# # print(dt)
-# dt.insert(0,'0')
 # print(dt)
 fig, ax = plt.subplots(facecolor=(0.5, 0.5, 0.5))
 fig.subplots_adjust(bottom=0.2)
