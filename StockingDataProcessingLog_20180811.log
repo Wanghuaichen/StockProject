@@ -1,0 +1,30 @@
+====================
+datestamp 20180811 21:44:32
+function name saveHistoricalDailyTrade_qfq
+parameters symbol = 000333, start = 2013-09-01, end = 2015-11-30
+detail name 'a' is not defined
+====================
+====================
+datestamp:       20180811 21:55:16
+function name:   saveHistoricalDailyTrade_qfq
+parameters:      symbol = 000651, start = 2012-01-01, end = 2015-12-31
+detail:          HTTP Error 456: 
+====================
+====================
+datestamp:       20180811 21:56:21
+function name:   saveHistoricalDailyTrade_qfq
+parameters:      symbol = 000651, start = 2012-01-01, end = 2015-12-31
+detail:          获取失败，请检查网络.
+====================
+====================
+datestamp:       20180811 21:57:01
+function name:   saveHistoricalDailyTrade_qfq
+parameters:      symbol = 000651, start = 2012-01-01, end = 2015-12-31
+detail:          获取失败，请检查网络.
+====================
+====================
+datestamp:       20180811 21:57:40
+function name:   saveHistoricalDailyTrade_qfq
+parameters:      symbol = 000651, start = 2012-01-01, end = 2015-12-31
+detail:          获取失败，请检查网络.
+====================
