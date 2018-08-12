@@ -12,11 +12,11 @@ from bs4 import BeautifulSoup
 
 # news of which date you want to collect
 # generate a timestamp in python and pass this parameter in request
-startDate = '2018-07-29 12:00:00'
-endDate = '2018-01-01 23:59:59'
+startDate = '2018-08-12 23:59:59'
+# endDate = '2018-01-01 23:59:59'
 
 startts = str(int(time.mktime(time.strptime(startDate,'%Y-%m-%d %H:%M:%S'))))
-endts = 1532530758 #int(time.mktime(time.strptime(endDate,'%Y-%m-%d %H:%M:%S')))
+endts = 1532830234 #int(time.mktime(time.strptime(endDate,'%Y-%m-%d %H:%M:%S')))
 # print(ts)
 
 # Parameters
