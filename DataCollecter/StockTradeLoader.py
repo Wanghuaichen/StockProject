@@ -53,4 +53,4 @@ def saveHistoricalDailyTrade_qfq(_symbols, _start_dte, _end_dte):
 
 saveHistoricalDailyTrade_qfq('000651','2018-01-01','2018-12-31')
 
-# saveDailyTrade_quantos('000651.SZ',20120101,20120110)
+# saveDailyTrade_quantos('sh',20120101,20120110)

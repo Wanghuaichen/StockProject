@@ -1,5 +1,6 @@
 from jaqs.data import DataApi
 from sqlalchemy import create_engine
+import tushare as ts
 
 def getDBConn():
     config = {
@@ -25,5 +26,14 @@ def getQuantApi():
         api = DataApi(addr = addr)
         api.login(phone, token)
         return api
+    except Exception as e:
+        print('Init Api Failed')
+
+def getTushareApi():
+    token = '67f84aad6e6089ae9669ea7c01b732de51f856568b559219f11f029e'
+    try:
+        ts.set_token(token) 
+        tsapi = ts.pro_api()
+        return tsapi
     except Exception as e:
         print('Init Api Failed')
